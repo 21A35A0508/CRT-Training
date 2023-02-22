@@ -1,0 +1,156 @@
+l=[]
+d={}
+for i in range(5):
+   d = {
+    'key 1': input('enter key1'),
+    'key 2':input('enter key2')
+}
+l.append(d)
+print (l)
+o/p:enter key111
+enter key222
+enter key133
+enter key244
+enter key155
+enter key266
+enter key177
+enter key288
+enter key199
+enter key212
+[{'key 1': '99', 'key 2': '12'}]
+------------------------------------------------------------------------
+db={
+    'username':'password'
+}
+db=[{ 'a@mail.com','abC'},
+    {'b@mail.com','Bac'},
+    {'c@mail.com','21A'}
+]
+for i in db:
+    print(i.keys())#i is dict obj
+    print(i.values())
+if(username == db):
+    print(db[password])
+else:
+    print("invalid")
+
+
+--------------------------------------------------LOGIN FORM
+
+
+db=[{ 'a@mail.com','aba'},
+    {'b@mail.com','Bac'},
+    {'c@mail.com','21A'}
+ ]
+print(db)
+username=input("enter username")
+password=input("enter password")
+temp={'username':'password'}
+if temp in db:
+    print("found")
+else:
+    print("invalid")
+----------------------------------------------------------
+arrays
+1-D
+2-D
+multi dimensional
+
+
+
+row=3
+col=3
+arr=[]
+for i in range(row):
+ element=[]
+ for j in range (col):
+     element.append((int(input("enter element"))))
+     arr.append(element)
+print (arr)
+-------------------------------------------------ADDITION OF TWO MATRICES
+row=3
+col=3
+arr1=[]
+arr2=[]
+for i in range(row):
+
+    temp=input("enter elements in row:").split(' ')
+    ele=list(map(int,temp))
+    arr1.append(ele)
+    print(arr1)
+    for j in range(row):
+        temp = input("enter elements in row:").split(' ')
+        ele = list(map(int, temp))
+        arr2.append(ele)
+        print(arr2)
+res=[[0 for j in range (col)] for i in range (row)]
+for i in range (row):
+ for j in range(col):
+  res[i][j]=arr1[i][j]+arr2[i][j]
+print(res)
+
+slicing-------
+col=4
+l=[1,2,3,4,5,6,7]
+print(l)
+print(l[0:5])#odd values
+print(l[::-1])#reverse 
+print(l[-5])#negative indexing
+
+
+fibbinacci series---------
+
+string methods--s="hello pragati"
+res=s.split()
+print(s)
+print('-'.join(res))hello pragati
+hello-pragati
+o/p:
+hello pragati
+hello-pragati
+-----upper()
+----lower()
+-----count()
+------swapcase()
+--title()
+----isalpha
+
+string formatting----------
+num=5
+print("the square of {} is {}".format(num,num*num))
+o/p:the square of 5 is 25
+
+num=5.23
+print("the square of {} is {10:.2f}".format(num,num*num))
+
+num=10
+print("the square of {num} is {num*num:.5f}")
+
+first="pavani is"
+age=19
+last="years old"
+print("pavani is {}",format(age))
+
+exception handling-------
+try---
+except------
+
+----------------------------program to perform addition operation by giving input as operator
+
+try:
+    a=list(map(int,input().split(' ')))
+    print(a)
+except:
+    print("value")
+o/p:2.0
+value
+
+
+functions--------------
+regular---
+default--
+keyword argument functions-------calling functions
+variable length functions---any number of arguments---*
+
+recursion---------
+base condition

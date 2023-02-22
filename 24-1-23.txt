@@ -1,0 +1,9 @@
+diamond problem--multiple inheritence(1 child accessing then properties from 2 parents)
+
+hybrid inheritence
+ rock, paper game-------------
+
+
+5--0101--not-1010
+7--0111--not-1000
+exor=0010--2-(ans)

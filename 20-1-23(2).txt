@@ -1,0 +1,19 @@
+new-->repository name(pec-training)-->create
+https link-->copy it-->local pc-->python programs
+cmd-->dir
+      git init(initiate git on local pc)
+      git remote add origin (https://---link from github)
+----------------------(repeat after changes)
+      git add .
+      git commit -m "message"----->staging area
+      git push origin master------------>master branch name
+to change master branch to other---git branch pavani(other branch name)
+                                   git push origin pavani
+
+BIG BUCKET(alternate for github(not an open source))
+
+operators--
+
+right shift==28/2=14/2=7(division)(28>>2)
+
+left shift==(7<<2)-->7*2=14*2=28*2=56(multiplication)

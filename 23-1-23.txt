@@ -1,0 +1,47 @@
+Python packages--
+--add_n_numbers
+from MyPythonFile import add_n_numbers(or) add_two_numbers.
+
+import MyPythonFile
+a=1
+b=2
+c=3
+d=4
+print (MyPythonFile.add_n_numbers(a,b,c,d))
+
+
+class Student:
+    name="" 
+    roll_number="" 
+    branch="" 
+    marks=0
+    attendence=0.0
+    is_using_transport=False
+    def view_attendence(self):
+        pass
+    def view_marks(self):------------self is same as this keyword in java
+        pass
+    def view_name(self):
+        pass
+    def update_name(self,new_name):
+        pass
+
+constructors are called initializers(init) in python------provide default and current variables
+
+argumented constructors
+
+class Student:
+   student_name=""
+   def __init__(self,name):
+      print("object created")
+      print(name)
+      print(self.student_name)
+s1=Student("mukesh")
+o/p:object created
+mukesh
+
+packages------------
+
+private--  __ 
+
+
