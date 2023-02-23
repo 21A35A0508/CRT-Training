@@ -1,0 +1,13 @@
+    if u_choice not in arr:
+        print("invalid")
+    else:
+       if computer=="rock" and "scissor":
+          print("comp won")
+       elif computer=="paper" and "rock":
+          print("comp won")
+       elif computer=="scissor" and "paper":
+          print("comp won")
+       elif computer==u_choice:
+          print("DRAW")
+       else:
+          print("user won")
